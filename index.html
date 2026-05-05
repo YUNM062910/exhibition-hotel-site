@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Hotel Horizon</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="logo-area">
+        <div class="logo-mark">
+          <i class="fa-solid fa-hotel"></i>
+        </div>
+        <div class="logo-text">
+          <p class="hotel-label">BUSINESS HOTEL</p>
+          <h1>扇が浜ホテル
+          </h1>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <ul>
+          <li><a href="other-page/business-hotel-rooms/rooms.html">客室</a></li>
+          <li><a href="other-page/business-hotel-restaurant/restaurant.html">レストラン</a></li>
+          <li><a href="other-page/business-hotel-facility/facility.html">館内施設</a></li>
+          <li><a href="../access">アクセス</a></li>
+
+          <li class="lang-menu">
+            <a href="#">言語選択</a>
+            <ul class="lang-dropdown">
+              <li><a href="#">日本語</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">中文</a></li>
+              <li><a href="#">한국어</a></li>
+          </ul>
+          </li>
+        </ul>
+        </nav>
+          <a class="reserve-btn" href="reservation.html">予約ページ</a>
+        
+      
+    </div>
+  </header>
+
+  <main class="page-layout">
+    <!-- 左側 -->
+    <section class="main-content">
+
+      <!-- ヒーロー -->
+      <section class="hero section-card1">
+        <div class="hero-slider">
+          <button class="slider-btn prev" onclick="changeSlide(-1)">◄</button>
+
+          <div class="slide-track">
+            <div class="slide active" style="background-image: url(https://imgcp.aacdn.jp/img-a/1200/900/aa/gm/article/4/6/2/9/0/9/201603111726/topimg_original.jpg);">
+              <div class="slide-overlay">
+                <div class="slide-background">
+                <p class="eyebrow">観光・出張などでの最適解</p>
+                <h2>１人でも数人でのご利用でも<br>使いやすい滞在を。</h2>
+                <p>
+                  生まれてから何歳までもを中心に、<br>幅広い世代が使いやすい
+                  シンプルで快適なビジネスホテル。
+                </p>
+              </div>
+              </div>
+            </div>
+
+            <div class="slide" style="background-image: url(https://tabiiro.jp/lpimg/gourmet/310191/main/img1.jpg);">
+              <div class="slide-overlay">
+                <div class="slide-background">
+                
+                <p class="eyebrow">食事にも楽しみを</p>
+                <h2>仕事の後も落ち着ける<br>楽しみであり団らんの場</h2>
+                <p>
+                  多くの季節食材と誰もが親しみのあるメニュー作り
+                </p>
+              </div>
+              </div>
+            </div>
+
+            <div class="slide" style="background-image: url(https://hotel-kiitanabe.com/_cms_/wp-content/uploads/2023/08/P4A0121-2048x1366.jpg);">
+              <div class="slide-overlay">
+                <div class="slide-background">
+                <p class="eyebrow">アクセス良好</p>
+                <h2>主要駅から近く、<br>移動もスムーズ。</h2>
+                <p>
+                  仕事でも旅行でも便利な立地で、滞在のストレスを軽減。
+                </p>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider-btn next" onclick="changeSlide(1)">►</button>
+        </div>
+      </section>
+
+      <!-- 客室 -->
+      <section id="rooms" class="section-card section-spacing">
+          <div class="section-head">
+          <p class="section-sub">ROOMS</p>
+          <h2>客室</h2>
+          <div class="rooms-btn">
+            <a href="other-page/business-hotel-rooms/rooms.html">客室詳細ページへ</a>
+          </div>
+        </div>
+
+
+           
+
+        <div class="room-grid">
+          <article class="room-card">
+            <img src="images/single.png" alt="シングルルーム">
+            <a href="other-page/business-hotel-rooms/index.html"></a>
+            <div class="room-body">
+              <h3>シングルルーム</h3>
+              <p>一人での宿泊に最適な、機能性重視の定番客室。</p>
+            </div>
+          </article>
+
+          <article class="room-card">
+            <img src="https://tse4.mm.bing.net/th/id/OIP.DpMzvkEUQ41qk2k5G1EKhwHaEJ?rs=1&pid=ImgDetMain&o=7&rm=3" alt="スタンダードダブル">
+            <a href="other-page/business-hotel-rooms/index.html"></a>
+            <div class="room-body">
+              <h3>スタンダードダブル</h3>
+              <p>カップルや一人でゆったり過ごしたい方におすすめ。</p>
+            </div>
+          </article>
+
+          <article class="room-card">
+            <img src="https://www.shinjyuku-wh.com/guestroom/img/ph_s_twin_basic.jpg" alt="ツインルーム">
+            <a href="other-page/business-hotel-rooms/index.html"></a>
+            <div class="room-body">
+              <h3>ツインルーム</h3>
+              <p>友人同士や家族での利用に便利な2ベッドタイプ。</p>
+            </div>
+          </article>
+
+          <article class="room-card">
+            <img src="https://www.newotani.co.jp/fileadmin/res/osaka/stay/room/d-twin-castle/01.jpg" alt="デラックスツイン">
+            <a href="other-page/business-hotel-rooms/index.html"></a>
+            <div class="room-body">
+              <h3>デラックスツイン</h3>
+              <p>ゆとりのある広さで、少し特別な滞在にも対応。</p>
+            </div>
+          </article>
+
+          <article class="room-card">
+            <img src="https://img-cdn.guide.travel.co.jp/matome/6420/25F654C706EE4DA28209A88C2FF98ED6_L.jpg" alt="レディースルーム">
+            <a href="other-page/business-hotel-rooms/index.html"></a>
+            <div class="room-body">
+              <h3>レディースルーム</h3>
+              <p>アメニティを充実させた、安心感のある客室。</p>
+            </div>
+          </article>
+
+          <article class="room-card">
+            <img src="https://prtimes.jp/i/44410/102/resize/d44410-102-809229-0.jpg" alt="ユニバーサルルーム">
+            <a href="other-page/business-hotel-rooms/index.html"></a>
+            <div class="room-body">
+              <h3>ユニバーサルルーム</h3>
+              <p>誰でも使いやすい設計を意識したバリアフリー対応。</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- レストラン -->
+      <section id="restaurant" class="section-card section-spacing">
+        <div class="section-head">
+          <p class="section-sub">RESTAURANT</p>
+          <h2>レストラン</h2>
+          <div class="rooms-btn">
+            <a href="other-page/business-hotel-restaurant/restaurant.html">レストランページへ</a>
+          </div>
+        </div>
+
+        <div class="restaurant-grid">
+          <article class="restaurant-card">
+            <img src="https://charmey.co/wp-content/uploads/2017/12/buffet_counter2.jpg" alt="朝食会場">
+            <div class="restaurant-overlay">
+                <div class="restaurant-cover">
+              <h3>朝食ビュッフェ</h3>
+              <p>和洋メニューを揃えた、<br>朝のスタートにぴったりの朝食。</p>
+            </div>
+            </div>
+          </article>
+
+          <article class="restaurant-card">
+            <img src="https://prtimes.jp/i/53012/44/resize/d53012-44-724660-0.jpg" alt="ラウンジ">
+            <div class="restaurant-overlay">
+                  <div class="restaurant-cover2">
+              <h3>ラウンジスペース</h3>
+              <p>ちょっとした打ち合わせや休憩にも使いやすい空間。</p>
+            </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- 館内施設 -->
+      <section id="facilities" class="section-card section-spacing">
+        <div class="section-head">
+          <p class="section-sub">FACILITIES</p>
+          <h2>館内施設</h2>
+        </div>
+
+        <div class="facility-list">
+          <div class="facility-item">
+            <a href="other-page/business-hotel-facility/facility.html">コインランドリー</a>
+          </div>
+          <div class="facility-item">
+            <a href="other-page/business-hotel-facility/facility.html">自動販売機コーナー</a></div>
+          <div class="facility-item">
+            <a href="other-page/business-hotel-facility/facility.html">ワーキングスペース</a></div>
+          <div class="facility-item">
+            <a href="other-page/business-hotel-facility/facility.html">無料Wi-Fi</a></div>
+          <div class="facility-item">
+            <a href="other-page/business-hotel-facility/facility.html">アメニティバー</a></div>
+          <div class="facility-item">
+            <a href="other-page/business-hotel-facility/facility.html">24時間フロント</a></div>
+        </div>
+      </section>
+
+      <!-- アクセス -->
+      <section id="access" class="section-card section-spacing">
+        <div class="section-head">
+          <p class="section-sub">ACCESS</p>
+          <h2>アクセス</h2>
+        </div>
+
+        <div class="map-box">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3318.3342454155513!2d135.3763024751225!3d33.7261720732815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6007a752075d80b9%3A0xa9c8be96e3db5471!2z44CSNjQ2LTAwMzMg5ZKM5q2M5bGx55yM55Sw6L665biC5paw5bGL5pW355S677yW4oiS77yS77yR!5e0!3m2!1sja!2sjp!4v1775731426328!5m2!1sja!2sjp"
+           width="600" height="450" style="border:0;" allowfullscreen="" 
+           loading="lazy" 
+           referrerpolicy="no-referrer-when-downgrade">
+
+          </iframe>
+        </div>
+
+        <div class="transport-box">
+          <div class="transport-head">
+            <h3>交通手段</h3>
+            <button class="toggle-btn" onclick="toggleTransport()">＋ 詳しく見る</button>
+          </div>
+
+          <div class="transport-preview">
+            <div class="transport-item">
+              <h4>電車でお越しの方</h4>
+              <p>紀伊田辺駅から徒歩15分。最寄り駅への移動もスムーズです。</p>
+            </div>
+          </div>
+
+          <div class="transport-more" id="transportMore">
+            <div class="transport-item">
+              <h4>バスでお越しの方</h4>
+              <p>最寄りバス停より徒歩3分。文化会館前バス停からのアクセス可能です。</p>
+            </div>
+
+            <div class="transport-item">
+              <h4>お車でお越しの方</h4>
+              <p>ホテル傍公園駐車場をご利用いただけます。台数制限があるため事前確認を推奨します。</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- 基本情報 -->
+      <section class="section-card section-spacing">
+        <div class="section-head">
+          <p class="section-sub">INFORMATION</p>
+          <h2>基本情報</h2>
+        </div>
+
+        <div class="info-grid">
+          <div class="info-card"><h3>チェックイン</h3><p>16:00〜</p></div>
+          <div class="info-card"><h3>チェックアウト</h3><p>〜11:00</p></div>
+          <div class="info-card"><h3>総客室数</h3><p>120室</p></div>
+
+          <div class="info-card"><h3>Wi-Fi</h3><p>全館無料</p></div>
+          <div class="info-card"><h3>朝食</h3><p>6:30〜9:30<br>（ラストオーダー9:00）</p></div>
+          <div class="info-card"><h3>駐車場</h3><p>ホテル傍公園駐車場<br>（駐車可能台数:240台）</p></div>
+
+          <div class="info-card"><h3>支払い方法</h3><p>現金・QRコード決済<br>各種カード決済（事前精算可）</p></div>
+          <div class="info-card"><h3>フロント対応</h3><p>6:00~24:00<br>（電話対応可能時間:24時間）</p></div>
+          <div class="info-card"><h3>ランドリー</h3><p>館内設置<br>（洗濯機:8台　乾燥機:8台）</p></div>
+
+          <div class="info-card"><h3>アメニティ</h3><p>ロビーカウンターでの提供<br>（レディースアイテム有）</p></div>
+          <div class="info-card"><h3>アクセス</h3><p>紀伊田辺駅より徒歩15分<br>文化会館前バス停より徒歩3分</p></div>
+          <div class="info-card"><h3>問い合わせ</h3><p>080-0000-0000</p></div>
+        </div>
+      </section>
+
+      <!-- スマホ用簡易情報 -->
+      <section class="mobile-quick section-card section-spacing">
+        <div class="section-head">
+          <p class="section-sub">SMARTPHONE INFO</p>
+          <h2>簡易情報</h2>
+        </div>
+
+        <details>
+          <summary>アクセス・基本情報を見る</summary>
+          <div class="details-body">
+            <p>チェックイン：15:00〜</p>
+            <p>チェックアウト：〜10:00</p>
+            <p>最寄駅から徒歩5分</p>
+            <p>全館Wi-Fi無料</p>
+            <p>お問い合わせ：00-0000-0000</p>
+          </div>
+        </details>
+
+        <details>
+          <summary>交通手段を見る</summary>
+          <div class="details-body">
+            <p>電車：○○駅から徒歩5分</p>
+            <p>バス：最寄り停留所から徒歩3分</p>
+            <p>車：提携駐車場あり</p>
+          </div>
+        </details>
+      </section>
+
+    </section>
+
+    <!-- 右側 -->
+    <aside class="side-info">
+      <div class="sticky-box">
+        <h2>基本情報</h2>
+        <ul class="side-list">
+          <li><span>チェックイン</span><strong>16:00〜</strong></li>
+          <li><span>チェックアウト</span><strong>〜11:00</strong></li>
+          <li><span>住所</span><strong></strong>和歌山県田辺市新屋敷町〇-〇〇</li>
+          <li><span>最寄駅　紀伊田辺駅</span><strong>徒歩15分</strong></li>
+          <li><span>電話番号</span>080-0000-0000</strong></li>
+          <li><span>Wi-Fi</span><strong>全館無料</strong></li>
+        </ul>
+
+        <a class="side-reserve-btn" href="../business-hotel-rooms/index.html">客室選択</a>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div>
+        <h3>Business Hotel FanBeach</h3>
+        <p>〒646-0033 和歌山県田辺市新屋敷町〇-〇〇/p>
+        <p>TEL：080-0000-0000</p>
+      </div>
+
+      <div class="footer-right">
+        <p>客室 / レストラン / 館内施設 / アクセス / 予約</p>
+        <p>© 2026 Business Hotel Horizon All Rights Reserved.</p>
+      </div>
+      <div class="white-box"></div>
+      
+    </div>
+  </footer>
+
+  <script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlide(index) {
+      slides.forEach(slide => slide.classList.remove('active'));
+      if (index >= slides.length) currentSlide = 0;
+      if (index < 0) currentSlide = slides.length - 1;
+      slides[currentSlide].classList.add('active');
+    }
+
+    function changeSlide(direction) {
+      currentSlide += direction;
+      if (currentSlide >= slides.length) currentSlide = 0;
+      if (currentSlide < 0) currentSlide = slides.length - 1;
+      showSlide(currentSlide);
+    }
+
+    function toggleTransport() {
+      const box = document.getElementById('transportMore');
+      const btn = document.querySelector('.toggle-btn');
+
+      box.classList.toggle('open');
+
+      if (box.classList.contains('open')) {
+        btn.textContent = '− 閉じる';
+      } else {
+        btn.textContent = '＋ 詳しく見る';
+      }
+    }
+  </script>
+
+</body>
+</html>
